@@ -64,14 +64,14 @@ padding: 0;
     margin: 20px 0px;
     font-size: 15px;
     font-weight: 800;
-    color: orange;
-    border: 2px solid orange;
+    color: indianred;
+    border: 2px solid indianred;
     background-color: transparent;
 
 }
 
 .hero button:hover{
-    background-color: orange;
+    background-color: indianred;
     color: white;
     border: none;
 }
@@ -84,14 +84,26 @@ padding: 0;
 
 }
 
-.set{
+.pro-set{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0px 0px 30px 0px;
+
+}
+
+.pro-set .set{
     width: 250px;
-    border: 2px solid red;
+    padding: 5px 0px 0px 5px;
+    background-color: rgb(235, 233, 233);
+    margin: 15px 0px;
 
 }
 
 .set h4{
-    background-color: grey;
+    background-color: white;
     height:50px;
     width:50px;
     border-radius: 50%;
@@ -106,6 +118,56 @@ padding: 0;
     width: 200px;
     display: flex;
     margin: auto;
-    border: 2px solid red;
+    object-fit: contain;
 }
 
+.price{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 15px 10px 15px;
+}
+
+.necklace{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+
+}
+
+.amt{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+
+}
+
+.amt span{
+    color: indianred;
+
+}
+
+.more-pro{
+    display: flex;
+    margin: auto;
+    padding: 15px 15px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    background-color: indianred;
+    color: white;
+    border: none;
+    transition: all ease-in 0.2s;
+}
+
+.more-pro:hover{
+    border: 2px solid indianred;
+    background-color: white;
+    color: indianred;
+}
+
+
+.sec-3{
+    display: flex;
+    border: 2px red solid;
+
+}
