@@ -245,7 +245,7 @@ padding: 0;
 
 }
 
-.offer1{
+.offer{
     color: white;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-weight: 800;
@@ -295,23 +295,62 @@ padding: 0;
 
 }
 
-
-
-.offer2{
-    color: white;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-weight: 800;
-    font-size: 40px;
-    padding: 15px;
+.heading{
+    /* border: 2px red solid; */
+    display: flex;
+    justify-content: center;
+    font-size:20px;
+    padding: 60px 0px 0px 0px;
 
 }
 
-.offer3{
-    color: white;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-weight: 800;
-    font-size: 40px;
-    padding: 15px;
-
+.sec-5{
+    /* border: 2px red solid; */
+    display: flex;
+    padding: 10px;
 }
 
+.sec5-left{
+    /* border: 2px green solid; */
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.data{
+    padding: 30px 20px 25px 25px;
+    background-color: rgb(236, 240, 240);
+}
+
+.sec5-right{
+    /* border: 2px yellow solid; */
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.sec-btn{
+    padding: 10px 30px;
+    background-color: transparent;
+    color: black;
+    border: black 1px black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: all 0.2s ease-in;
+    font-size: 20px;
+}
+
+.sec-btn:hover{
+    background-color: black;
+    color: white;
+}
+
+.sec-p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 10px 0px;
+}
+
+.sec-h1{
+    font-size: 25px;
+    font-weight: 1000;
+}
