@@ -169,37 +169,36 @@ padding: 0;
 .sec-3{
     display: flex;
     /* border: 2px red solid; */
-    height: 100vh;
     object-fit: contain;
+    padding: 50px;
 
 }
 
-.fig-body{
+.fig{
     /* border: 2px red solid; */
     display: flex;
-    justify-content: center;
     align-items: center;
-    padding: 30px;
+    width: 50%;
 
 }
 
 .fig img{
     width: 550px;
-    padding-bottom: 130px;
+    object-fit: contain;
 }
 
 .about{
+    width: 50%;
     /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 0px 5px 150px 5px;
+    align-items:baseline;
 
 }
 
 .abt-us{
     font-size: 35px;
-    padding-left: 50px;
 
 }
 
@@ -208,14 +207,14 @@ padding: 0;
     font-weight: 500;
     font-size: 20px;
     line-height: 30px;
-    padding: 5px 30px 5px 50px ;
+    padding: 5px 30px 5px 0px ;
 
 }
 
 .abt-btn{
     height: 50px;
     width: 200px;
-    margin: 20px 0px 0px 45px;
+    margin: 20px 0px 0px 0px;
     background-color: indianred;
     font-size: 20px;
     font-weight: 600;
@@ -229,3 +228,90 @@ padding: 0;
     background-color: white;
     border: 1px solid indianred;
 }
+
+.sec-4{
+    /* border: 2px red solid; */
+    display:flex;
+    height: 65vh;
+    padding: 0px 10px;
+}
+
+.left{
+    /* border: 2px red solid; */
+    background-image: url("./images/o1.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;    
+    width: 60%;
+
+}
+
+.offer1{
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 40px;
+    padding: 15px;
+
+}
+
+.off-btn{
+    margin-left: 15px;
+    padding: 10px 30px;
+    background-color: transparent;
+    color: indianred;
+    border: 1px indianred solid;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: all 0.2s ease-in;
+    font-size: 20px;
+}
+
+.off-btn:hover{
+    background-color: indianred;
+    color: white;
+}
+
+.right{
+    /* border: 5px green solid; */
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.pic-1{
+    /* border: 2px pink solid; */
+    background-image: url("./images/o2.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 50%;
+    margin-bottom: 7px;
+}
+
+.pic-2{
+    /* border: 2px red solid; */
+    background-image: url("./images/o3.jpg");
+    background-size: cover;
+    height: 50%;
+    margin-top: 7px;
+
+}
+
+
+
+.offer2{
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 40px;
+    padding: 15px;
+
+}
+
+.offer3{
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 40px;
+    padding: 15px;
+
+}
+
